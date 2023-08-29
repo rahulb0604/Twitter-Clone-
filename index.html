@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Twitter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+     
+  </head>
+  <body>
+    <div class="grid-3 main-out-box">
+      <div class="left-navbar">
+        <div class="fixed-bar">
+          
+          <div class="icon mhide">
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+
+          <div class="home-outer left-link">
+            <a href="#">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+          </div>
+          <div class="explore-outer left-link">
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>Explore</span>
+            </a>
+          </div>
+          <div class="notification-outer left-link">
+            <a href="#">
+                <i class="fa-regular fa-bell"></i>
+                <span>Notification</span>
+            </a>
+          </div>
+          <div class="Message-outer left-link">
+            <a href="#">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Messages</span>
+            </a>
+          </div>
+          <div class="list-outer mhide left-link">
+            <a href="SignupPage/index3.html">
+                <i class="fa-solid fa-book"></i>
+                <span>Lists</span>
+            </a>
+          </div>
+          <div class="bookmark-outer mhide left-link">
+            <a href="#">
+                <i class="fa-regular fa-bookmark"></i>
+                <span>Bookmark</span>
+            </a>
+          </div>
+          <div class="profile-outer mhide left-link">
+            <a href="Profile.html">
+                <i class="fa-regular fa-user"></i>
+                <span>Profile</span>
+            </a>
+          </div>
+          <div class="more-outer mhide left-link">
+            <a href="#">
+                <i class="fa-solid fa-circle-chevron-down"></i>
+                <span>More</span>
+            </a>
+          </div>
+          <div class="tweet-btn">
+            <a class="post">Post</a>
+          </div>
+
+          <div class="tab-tweet-btn left-link mhide">
+              <a href="#"> 
+                <i class="fa-solid fa-leaf"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="center-main-part">
+        <div class="top-part inbox">
+          <h2>Home</h2>
+          <div class="grid2 head" id="headselect">
+            <div class="" id="fy">
+              <span>For you</span>
+            </div>
+            <div class="fy" id="flw">
+              <span>Following</span>
+            </div>
+          </div>
+        </div>
+        <div class="add-post inbox inputfield">
+          <div class="imgntweet">
+            <img src="Images/avatar.png" alt="">
+            <textarea name="tweet-content" id="tweet-text" cols="80" rows="2" placeholder="What is happening?!"></textarea>
+          </div>
+          <div class="iconnbtn" id="iconnbtn">
+            <ul>
+              <li><i class="fa-regular fa-image"></i></li>
+              <li><i class="fa-regular fa-square"></i></li>
+              <li><i class="fa-solid fa-list-ul"></i></li>
+              <li><i class="fa-regular fa-face-smile"></i></li>
+              <li><i class="fa-solid fa-calendar"></i></li>
+              <li><i class="fa-solid fa-location-dot"></i></li>
+            </ul>
+            <div class="btn-div">
+              <a id="addpostbtn" class="btn">Post</a>
+            </div>
+          </div>
+        </div>
+        <div id="tweetcorner">
+          <div class="tweet-card add-post inbox">
+            <div class="imgntweet">
+              <img src="Images/elvish.jpg" alt="">
+              <div class="content">
+                <h4 class="pn">Elvish Yadav <img src="Images/Verify Badge.png" alt=""> <span class="verified">@elvishyadav・Aug20</span></h4>
+                <div class="tweet">
+                  <h4>Hum toh Systumm hi Systumm kar rhe hai,<br>kroge hmare sath ? . .
+                  </h4>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis action"></i>
+            </div>
+            <div class="tweetimg">
+              <img src="Images/post image.jpg" alt="">
+            </div>
+            <div class="iconnbtn tweet-below-bar">
+              <ul>
+                <li class="cmnt"><i class="fa-regular fa-comment clrme clrme2"></i><span class="clrme">1M</span></li>
+                <li class="retweet"><i class="fa-solid fa-repeat fa-rotate-90 clrme clrme2"></i><span class="clrme">500k</span></li>
+                <li id="like" class="like"><i class="fa-regular fa-heart clrme clrme2"></i><span class="clrme">8M</span></li>
+                <li class="upld"><i class="clrme clrme2 fa-solid fa-chart-simple"></i><span class="clrme">200k</span></li>
+                <li class="share"><i class="clrme2 fa-solid fa-upload clrme"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tweet-card add-post inbox">
+            <div class="imgntweet">
+              <img src="Images/love.jpg" alt="">
+              <div class="content">
+                <h4 class="pn">Love Kataria <span>@lovekataria・9h</span></h4>
+                <div class="tweet">
+                  <h4>Congratulation to Elvish Bhai aur apne sabhi bhaiyo ka itna sahyog dene ke liye bhut bhut dhnayawad.</h4>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis action"></i>
+            </div>
+            <div class="iconnbtn tweet-below-bar">
+              <ul>
+                <li class="cmnt"><i class="fa-regular fa-comment clrme clrme2"></i><span class="clrme">200k</span></li>
+                <li class="retweet"><i class="fa-solid fa-repeat fa-rotate-90 clrme clrme2"></i><span class="clrme">50k</span></li>
+                <li id="like" class="like"><i class="fa-regular fa-heart clrme clrme2"></i><span class="clrme">1M</span></li>
+                <li class="upld"><i class="clrme clrme2 fa-solid fa-chart-simple"></i><span class="clrme">20k</span></li>
+                <li class="share"><i class="clrme2 fa-solid fa-upload clrme"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tweet-card add-post inbox">
+            <div class="imgntweet">
+              <img src="Images/Deepak Kalal.jpg" alt="">
+              <div class="content">
+                <h4 class="pn">Deepak Kalal <span>@deepakkalal・20h</span></h4>
+                <div class="tweet">
+                  <h4>Rom Rom Bhaiyo,<br>Systum Pad Denge . . . . . .</h4>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis action"></i>
+            </div>
+            <div class="iconnbtn tweet-below-bar">
+              <ul>
+                <li class="cmnt"><i class="fa-regular fa-comment clrme clrme2"></i><span class="clrme">500</span></li>
+                <li class="retweet"><i class="fa-solid fa-repeat fa-rotate-90 clrme clrme2"></i><span class="clrme">50</span></li>
+                <li class="like" id="like"><i class="fa-regular fa-heart clrme clrme2"></i><span class="clrme">1.5k</span></li>
+                <li class="upld"><i class="clrme clrme2 fa-solid fa-chart-simple"></i><span class="clrme">10</span></li>
+                <li class="share"><i class="clrme2 fa-solid fa-upload clrme"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tweet-card add-post inbox">
+            <div class="imgntweet">
+              <img src="Images/elvish.jpg" alt="">
+              <div class="content">
+                <h4 class="pn">Elvish Yadav <img src="Images/Verify Badge.png" alt=""> <span class="verified">@elvishyadav・Aug20</span></h4>
+                <div class="tweet">
+                  <h4>Hum toh Systumm hi Systumm kar rhe hai,<br>kroge hmare sath ? . .
+                  </h4>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis action"></i>
+            </div>
+            <div class="tweetimg">
+              <img src="Images/post image.jpg" alt="">
+            </div>
+            <div class="iconnbtn tweet-below-bar">
+              <ul>
+                <li class="cmnt"><i class="fa-regular fa-comment clrme clrme2"></i><span class="clrme">1M</span></li>
+                <li class="retweet"><i class="fa-solid fa-repeat fa-rotate-90 clrme clrme2"></i><span class="clrme">500k</span></li>
+                <li id="like" class="like"><i class="fa-regular fa-heart clrme clrme2"></i><span class="clrme">8M</span></li>
+                <li class="upld"><i class="clrme clrme2 fa-solid fa-chart-simple"></i><span class="clrme">200k</span></li>
+                <li class="share"><i class="clrme2 fa-solid fa-upload clrme"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tweet-card add-post inbox">
+            <div class="imgntweet">
+              <img src="Images/love.jpg" alt="">
+              <div class="content">
+                <h4 class="pn">Love Kataria <span>@lovekataria・9h</span></h4>
+                <div class="tweet">
+                  <h4>Congratulation to Elvish Bhai aur apne sabhi bhaiyo ka itna sahyog dene ke liye bhut bhut dhnayawad.</h4>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis action"></i>
+            </div>
+            <div class="iconnbtn tweet-below-bar">
+              <ul>
+                <li class="cmnt"><i class="fa-regular fa-comment clrme clrme2"></i><span class="clrme">200k</span></li>
+                <li class="retweet"><i class="fa-solid fa-repeat fa-rotate-90 clrme clrme2"></i><span class="clrme">50k</span></li>
+                <li id="like" class="like"><i class="fa-regular fa-heart clrme clrme2"></i><span class="clrme">1M</span></li>
+                <li class="upld"><i class="clrme clrme2 fa-solid fa-chart-simple"></i><span class="clrme">20k</span></li>
+                <li class="share"><i class="clrme2 fa-solid fa-upload clrme"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tweet-card add-post inbox">
+            <div class="imgntweet">
+              <img src="Images/Deepak Kalal.jpg" alt="">
+              <div class="content">
+                <h4 class="pn">Deepak Kalal <span>@deepakkalal・20h</span></h4>
+                <div class="tweet">
+                  <h4>Rom Rom Bhaiyo,<br>Systum Pad Denge . . . . . .</h4>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis action"></i>
+            </div>
+            <div class="iconnbtn tweet-below-bar">
+              <ul>
+                <li class="cmnt"><i class="fa-regular fa-comment clrme clrme2"></i><span class="clrme">500</span></li>
+                <li class="retweet"><i class="fa-solid fa-repeat fa-rotate-90 clrme clrme2"></i><span class="clrme">50</span></li>
+                <li class="like" id="like"><i class="fa-regular fa-heart clrme clrme2"></i><span class="clrme">1.5k</span></li>
+                <li class="upld"><i class="clrme clrme2 fa-solid fa-chart-simple"></i><span class="clrme">10</span></li>
+                <li class="share"><i class="clrme2 fa-solid fa-upload clrme"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tweet-card add-post inbox">
+            <div class="imgntweet">
+              <img src="Images/elvish.jpg" alt="">
+              <div class="content">
+                <h4 class="pn">Elvish Yadav <img src="Images/Verify Badge.png" alt=""> <span class="verified">@elvishyadav・Aug20</span></h4>
+                <div class="tweet">
+                  <h4>Hum toh Systumm hi Systumm kar rhe hai,<br>kroge hmare sath ? . .
+                  </h4>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis action"></i>
+            </div>
+            <div class="tweetimg">
+              <img src="Images/post image.jpg" alt="">
+            </div>
+            <div class="iconnbtn tweet-below-bar">
+              <ul>
+                <li class="cmnt"><i class="fa-regular fa-comment clrme clrme2"></i><span class="clrme">1M</span></li>
+                <li class="retweet"><i class="fa-solid fa-repeat fa-rotate-90 clrme clrme2"></i><span class="clrme">500k</span></li>
+                <li id="like" class="like"><i class="fa-regular fa-heart clrme clrme2"></i><span class="clrme">8M</span></li>
+                <li class="upld"><i class="clrme clrme2 fa-solid fa-chart-simple"></i><span class="clrme">200k</span></li>
+                <li class="share"><i class="clrme2 fa-solid fa-upload clrme"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tweet-card add-post inbox">
+            <div class="imgntweet">
+              <img src="Images/love.jpg" alt="">
+              <div class="content">
+                <h4 class="pn">Love Kataria <span>@lovekataria・9h</span></h4>
+                <div class="tweet">
+                  <h4>Congratulation to Elvish Bhai aur apne sabhi bhaiyo ka itna sahyog dene ke liye bhut bhut dhnayawad.</h4>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis action"></i>
+            </div>
+            <div class="iconnbtn tweet-below-bar">
+              <ul>
+                <li class="cmnt"><i class="fa-regular fa-comment clrme clrme2"></i><span class="clrme">200k</span></li>
+                <li class="retweet"><i class="fa-solid fa-repeat fa-rotate-90 clrme clrme2"></i><span class="clrme">50k</span></li>
+                <li id="like" class="like"><i class="fa-regular fa-heart clrme clrme2"></i><span class="clrme">1M</span></li>
+                <li class="upld"><i class="clrme clrme2 fa-solid fa-chart-simple"></i><span class="clrme">20k</span></li>
+                <li class="share"><i class="clrme2 fa-solid fa-upload clrme"></i></li>
+              </ul>
+            </div>
+          </div>
+          <div class="tweet-card add-post inbox">
+            <div class="imgntweet">
+              <img src="Images/Deepak Kalal.jpg" alt="">
+              <div class="content">
+                <h4 class="pn">Deepak Kalal <span>@deepakkalal・20h</span></h4>
+                <div class="tweet">
+                  <h4>Rom Rom Bhaiyo,<br>Systum Pad Denge . . . . . .</h4>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis action"></i>
+            </div>
+            <div class="iconnbtn tweet-below-bar">
+              <ul>
+                <li class="cmnt"><i class="fa-regular fa-comment clrme clrme2"></i><span class="clrme">500</span></li>
+                <li class="retweet"><i class="fa-solid fa-repeat fa-rotate-90 clrme clrme2"></i><span class="clrme">50</span></li>
+                <li class="like" id="like"><i class="fa-regular fa-heart clrme clrme2"></i><span class="clrme">1.5k</span></li>
+                <li class="upld"><i class="clrme clrme2 fa-solid fa-chart-simple"></i><span class="clrme">10</span></li>
+                <li class="share"><i class="clrme2 fa-solid fa-upload clrme"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-side-bar">
+        <div class="fix">
+          <div class="r-out-box">
+            <div class="content">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search" class="search">
+            </div>
+          </div>
+        </div>
+        <div class="r-out-box rscnd">
+          <div class="content">
+            <h3>Subscribe to Premium</h3>
+            <h4>Subscribe to unlock new features and if eligible, receive a share of adsrevenue.</h4>
+            <div class="btn-div">
+              <a class="btn">Subscribe</a>
+            </div>
+          </div>
+        </div>
+        <div class="r-out-box">
+          <div class="content">
+            <h3>What's happening</h3>
+            <div class="top-trend dflex">
+              <div>
+                <p>NFL - This morning</p>
+                <h4>Saints at Charges</h4>
+              </div>
+              <div>
+                <img src="Images/35759281.jpg" alt="" width="50rem">
+              </div>
+            </div>
+            <div class="top-trend dflex">
+              <div>
+                <p>Trending in india</p>
+                <h4>#ChunavAajTak</h4>
+                <p>1,432 posts</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+            <div class="top-trend dflex">
+              <div>
+                <p>Trending in india</p>
+                <h4>#LeoAudioLaunch</h4>
+                <p>3,190 posts</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+            <div class="top-trend dflex">
+              <div>
+                <p>Science. Trending</p>
+                <h4>#VikramLander</h4>
+                <p>Trending with<span>#PrakashRaj, ISRO</span></p>
+              </div>
+              <div>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+            <div class="top-trend dflex">
+              <div>
+                <p>Trending in India</p>
+                <h4>#tradewithbinomo</h4>
+                <p>Trending with<span>Ashwin, Chahal</span></p>
+              </div>
+              <div>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+            <div class="top-trend">
+              <span class="sm"><a href="#">Show More</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="r-out-box">
+          <div class="content flwbtnout">
+            <h3>Who to follow</h3>
+            <div class="top-trend dflex">
+              <div class="profile-name">
+                <div>
+                  <img src="Images/elvish.jpg" class="profile" alt="">
+                </div>
+                <div class="pn">
+                  <h4>Elvish Yadav</h4>
+                  <img src="Images/Verify Badge.png" alt="">
+                  <p>@raosaab</p>
+                </div>
+              </div>
+              <div>
+                <div class="btn-div">
+                  <a class="btn2">Follow</a>
+                </div>
+              </div>
+            </div>
+            <div class="top-trend dflex">
+              <div class="profile-name">
+                <div>
+                  <img src="Images/avatar.png" class="profile" alt="">
+                </div>
+                <div class="pn">
+                  <h4>Heavy Driver</h4>
+                  <img src="Images/Verify Badge.png" alt="">
+                  <p>@elonmusk</p>
+                </div>
+              </div>
+              <div>
+                <div class="btn-div">
+                  <a class="btn2">Follow</a>
+                </div>
+              </div>
+            </div>
+            <div class="top-trend">
+              <span class="sm"><a href="#">Show More</a></span>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
