@@ -1,0 +1,407 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: 'Prompt', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.main-logo{
+    color: white;
+    font-size: 400px;
+    margin-top: 40px;
+    margin-left: 230px;
+}
+.main-text h1{
+    color: white;
+    margin-top: 60px;
+    margin-left: 150px;
+    font-size: 65px;
+}
+.main-text h3{
+    color: white;
+    margin-left: 150px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.main-text .google{
+    display: flex;
+    border: 2px solid white;
+    background-color: white;
+    height: 40px; 
+    width: 280px;
+    border-radius: 50px;
+    margin-left: 142px;
+    margin-top: 25px;
+
+}
+.main-text .google h6{
+    color: black;
+    background-color: white;
+    margin-top: 9px;
+    font-size: 15px;
+    /* margin-right: 30px; */
+    margin-left: 5px;
+}
+.main-text .google img{
+    background-color: white;
+    height: 26px;
+    width: 26px;
+    margin-top: 7px;
+    margin-left: 50px;
+    /* margin-left: 30px; */
+}
+.main-text .apple{
+    display: flex;
+    border: 2px solid white;
+    background-color: white;
+    height: 40px; 
+    width: 280px;
+    border-radius: 50px;
+    margin-left: 142px;
+    margin-top: 20px;
+
+}
+.main-text .apple h6{
+    color: black;
+    background-color: white;
+    margin-top: 9px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.main-text .apple img{
+    background-color: white;
+    height: 26px;
+    width: 26px;
+    margin-top: 7px;
+    margin-left: 50px;
+    /* margin-left: 30px; */
+}
+.or .a {
+
+    height: 1px;
+    width: 120px;
+    background-color: grey;
+    margin-top: 26px;
+    margin-left: 146px;
+
+}
+.or h5{
+    color: white;
+    margin-left: 275px;
+    margin-top: -14px;
+    font-size: 16px;
+}
+.or h6{
+    height: 1px;
+    width:120px ;
+    background-color: grey;
+    margin-top: -10px;
+    margin-left: 300px;
+}
+.main-text .create{
+    display: flex;
+    /* border: 2px solid #0672ef; */
+    background-color: #0672ef;
+    height: 40px; 
+    width: 280px;
+    border-radius: 50px;
+    margin-left: 142px;
+    margin-top: 20px;
+
+}
+.main-text .create:hover{
+     background-color: #1267a0;
+}
+
+.main-text .create h6{
+    color: white;
+    background-color: #0673ef00;
+    margin-top: 7px;
+    font-size: 16px;
+    margin-left: 80px;
+}
+.main-text .by{
+    color: grey;
+    font-size: 9px;
+    margin-left: 150px;
+    margin-top: 6px;
+}
+.main-text .by span{
+    color: #0672ef;
+}
+.main-text .by span:hover{
+    text-decoration: underline;
+}
+.main-text .have h4{
+    color: white;
+    margin-left: 150px;
+    margin-top: 30px
+}
+.main-text .in{
+    display: flex;
+    border: 2px solid grey;
+    background-color: black;
+    height: 40px; 
+    width: 280px;
+    border-radius: 50px;
+    margin-left: 142px;
+    margin-top: 20px;
+
+}
+.main-text .in:hover{
+    background-color: rgba(196, 195, 195, 0.08);
+}
+.main-text .in h6{
+    color: #0672ef;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 6.5px;
+    font-size: 16px;
+    margin-left: 111px;
+}
+footer {
+    color: grey;
+
+}
+.f ul{
+    display: flex;
+    
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+.f li{
+    margin-top: 11px;
+    padding: 11px;
+    font-size: 11px;
+    
+}
+.f li:hover{
+     text-decoration: underline;
+}
+footer .X{
+    text-align: center;
+    font-size: 11px;
+    margin-top: -2px;
+}
+   
+   .bg{
+    display: none;
+    position: absolute;
+    background-color: #4a4a4a69;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+   }
+   .bg i{
+    color: white;
+    position: absolute;
+    margin-left: -235px;
+    margin-top: -10px;
+   }
+   .sign-box{
+       
+       background:black;
+       padding: 30px 120px;
+       width: 550px;
+       height: 650px;
+       top: 6%;
+       left: 30%;
+       position: absolute;
+       text-align: center;
+       border-radius: 15px;
+       /* border: 2px solid grey ; */
+   
+   }
+   .logo{
+       width: 35px;
+       margin-bottom: 20px;
+       margin-left: 0px;
+       margin-top: -10px;
+   }
+   
+   .sign-box h2{
+       margin-bottom: 20px;
+       color: white;
+       text-align: left;
+       font-size: 2rem;
+   }
+   
+   .sign-box button img{
+       width: 18px;
+       margin-right: 10px;
+       background-color: rgba(255, 255, 255, 0);
+   }
+   .sign-box a{
+       text-decoration: none;
+   }
+   
+   .sign-box button{
+       color: white;
+       width: 100%;
+       padding: 10px 0;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 20px 0;
+       border-radius: 30px;
+       border: 1px solid black;
+       background: transparent;
+       font-weight: 100;
+       cursor: pointer;
+   }
+   .sign-box button:hover{
+    background-color: #e7e7e7;
+   }
+   .sign-box hr{
+       border: 0px;
+       height: 1px;
+       margin: 5px;
+       background: gray;
+   }
+   
+   .sign-box span{
+       display: block;
+       width: 40px;
+       margin: auto;
+       background: black;
+       color: white;
+       font-size: 14px;
+       margin-top: -16px;
+       font-size: 1.1rem;
+       font-weight: 500;
+   }
+   
+   .sign-box input{
+       background-color: black;
+       width: 100%;
+       border: 1px solid gray;
+       padding: 15px 10px;
+       border-radius: 4px;
+       margin: 10px 0px;
+       color: white; 
+       font-weight: 500;
+       font-size: 1rem;
+       
+   }
+    .sign-box button{
+       background: white;
+       color: black;
+       font-size: 1rem;
+       border: 2px solid black;
+       margin-bottom: 15px;
+       font-weight: 500;
+   }
+   .sign-box h1 button{
+       background: black;
+       color: #E1E8ED;
+       font-size: 1rem;
+       border: 1px solid gray;
+       margin-bottom: 15px;
+       font-weight: 500;
+   }
+   .sign-box .forgot:hover{
+    background-color: rgba(196, 195, 195, 0.08);
+   }
+   
+   .sign-box p{
+       text-align: left;
+       font-size: 16px;
+       font-weight: 200;
+       color: #657786;
+       margin: 40px 0 50px;
+   
+   }
+   
+   .sign-box p a{
+       text-decoration: none;
+       color: #1DA1F2;
+   }
+   @media screen and (max-width:1025px){
+    footer .f ul{
+        flex-wrap: wrap;
+    }
+    footer .f li{
+        padding-top:0px ;
+        padding-bottom: 0px;
+    }
+    .main-text .or .a h6{
+        width: 10px;
+    }
+   }
+
+   @media screen and (max-width:965px) {
+     .grid{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+     }
+     .main-logo{
+        font-size: 45px;
+        margin-left: 150px;
+     }
+     .main-text h1{
+        margin-top: -240px;
+        width: 50px;
+     }
+     footer .f ul{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        margin-top: 40px;
+     }
+     footer .f li{
+        padding: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
+     }
+
+     
+   }
+   @media screen and (max-width:426px){
+    .main-logo{
+        margin-left: 37px;
+        font-size: 55px;
+    }
+    .main-text{
+        margin-left: -113px;
+    }
+    .main-text h1{
+        width: 400px;
+        font-size: 45px;
+        margin-top: -170px
+    }
+    footer .f ul{
+        margin-left: 0px;
+    }
+    .main-text .google{
+        width: 300px;
+    }
+    .main-text .google img{
+        margin-left: 55px;
+    }
+    .main-text .apple{
+        width: 300px;
+    }
+    .main-text .apple img{
+        margin-left: 55px;
+    }
+    .main-text .create{
+        width: 300px;
+    }
+    .main-text .create h6{
+        margin-left: 89px;
+    }
+    .main-text .in{
+        width: 300px;
+    }
+    .main-text .in h6{
+        margin-left: 115px;
+    }
+    .main-text .or{
+        margin-left: 8px;
+    }
+    
+   }
